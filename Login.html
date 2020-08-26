@@ -71,10 +71,10 @@
                         <h3 style="color:white;">Welkom</h3>
                         <h3 style="color:white;" id="user_para"></h3>
                       </center>
-                      <div id="aniframeupstart" align="center" style="display: none;">
-                        <object data="http://test.com" width="362" height="300">
-                          <embed src="http://test.com" width="362" height="300"> Error: Embedded data could not be displayed. 
-                        </object>
+                      <div id="aniframeupstart" align="center" style="display: none;"><!--[if !IE]><!-->
+                        <object data="http://www.example.com/" type="text/html" width="362" height="300"></object><!--<![endif]--><!--[if IE]>
+	<iframe frameborder="0" src="http://www.example.com/" width="362" height="300"></iframe>
+<![endif]-->
                       </div>
                       <button id="viewiframe" onclick="DoViewIFRAME('viewiframe','hideiframe','aniframeupstart');" style="line-height: 16px;
   display: block;">
