@@ -6,6 +6,22 @@ body {
   font-size: 16px;
 }
 
+#viewiframe, #hideiframe {
+ font-family: 'Nunito', sans-serif;
+  font-weight: 700;
+  background: #2b0680;
+  color: #fff;
+  border: 1px solid #2b0680;
+  border-radius: 5px;
+  padding: 15px;
+  width: 362px;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  border: 1px solid #FFFFFF;
+  height: 54px;
+}
+
 input, button {
   font-family: 'Nunito', sans-serif;
   font-weight: 700;
@@ -58,4 +74,13 @@ input, button {
   border: 1px solid #2b0680;
   cursor: pointer;
   width: 362px;
+}
+
+#viewiframe:hover, #hideiframe:hover {
+  background: #fff;
+  color: #2b0680;
+  border: 1px solid #2b0680;
+  cursor: pointer;
+  width: 362px;
+  height: 54px;
 }

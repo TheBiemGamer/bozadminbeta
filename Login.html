@@ -71,6 +71,18 @@
                         <h3 style="color:white;">Welkom</h3>
                         <h3 style="color:white;" id="user_para"></h3>
                       </center>
+                      <div id="aniframeupstart" align="center" style="display: none;">
+                        <object data="http://example.com" width="362" height="300">
+                          <embed src="http://example.com" width="362" height="300"> Error: Embedded data could not be displayed. 
+                        </object>
+                      </div>
+                      <button id="viewiframe" onclick="DoViewIFRAME('viewiframe','hideiframe','aniframeupstart');" style="line-height: 16px;
+  display: block;">
+                        <nobr>Open Dashboard</nobr>
+                      </button>
+                      <button id="hideiframe" onclick="DoHideIFRAME('hideiframe','aniframeupstart','viewiframe');" style="display: none;">
+                        <nobr>Verberg Dashboard</nobr>
+                      </button>
                       <button onclick="logout()">Loguit</button>
                     </div>
                     <script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
@@ -90,6 +102,18 @@
 		  firebase.analytics();
 		  firebase.auth(); </script>
                     <script src="Form.js"></script>
+                    <script type="text/javascript" language="JavaScript"><!--
+function DoViewIFRAME(tid1,tid2,tid3) {
+document.getElementById(tid1).style.display = "none";
+document.getElementById(tid2).style.display = "";
+document.getElementById(tid3).style.display = "";
+}
+function DoHideIFRAME(tid1,tid2,tid3) {
+document.getElementById(tid1).style.display = "none";
+document.getElementById(tid2).style.display = "none";
+document.getElementById(tid3).style.display = "";
+}
+//--></script>
                   </div>
                 </div>
               </div>
