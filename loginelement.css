@@ -12,7 +12,7 @@ input, button {
 }
 
 .main-div, .loggedin-div {
-  width: 401px;
+  width: 362px;
   margin: 0px auto;
   margin-top: 150px;
   padding: 20px;
@@ -27,7 +27,7 @@ input, button {
   background: #fff;
   padding: 15px;
   outline: none;
-  width: 401px;
+  width: 362px;
   margin-bottom: 20px;
   transition: 0.3s;
   -webkit-transition: 0.3s;
@@ -45,7 +45,7 @@ input, button {
   border-radius: 5px;
   padding: 15px;
   display: block;
-  width: 401px;
+  width: 362px;
   transition: 0.3s;
   -webkit-transition: 0.3s;
   -moz-transition: 0.3s;
@@ -57,5 +57,5 @@ input, button {
   color: #2b0680;
   border: 1px solid #2b0680;
   cursor: pointer;
-  width: 401px;
+  width: 362px;
 }
