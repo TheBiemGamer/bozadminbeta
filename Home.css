@@ -67,9 +67,9 @@
 
 @media (max-width: 575px){ .u-section-3 .u-text-1 {width: 340px}
 .u-section-3 .u-text-2 {font-size: 1.5rem} }.u-section-4 .u-sheet-1 {min-height: 252px}
-.u-section-4 .u-text-1 {font-weight: normal; margin: 50px auto 60px}.u-section-5 .u-sheet-1 {min-height: 704px}
+.u-section-4 .u-text-1 {font-weight: normal; margin: 50px auto 60px}.u-section-5 .u-sheet-1 {min-height: 700px}
 .u-section-5 .u-text-1 {width: 443px; margin: 0 auto}
-.u-section-5 .u-map-1 {width: 1100px; height: 562px; margin: 46px auto 44px} 
+.u-section-5 .u-map-1 {width: 1100px; height: 562px; margin: 44px auto 46px} 
 
 @media (max-width: 1199px){ .u-section-5 .u-text-1 {font-weight: normal}
 .u-section-5 .u-map-1 {width: 940px} }
